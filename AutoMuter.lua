@@ -19,3 +19,39 @@
 -- LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 -- OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 -- SOFTWARE.
+
+
+
+-- Semantic Versioning 2.0.0
+-- 
+-- Summary
+-- 
+-- Given a version number MAJOR.MINOR.PATCH, increment the:
+-- 1. MAJOR version when you make incompatible API changes,
+-- 2. MINOR version when you add functionality in a backwards-compatible manner, and
+-- 3. PATCH version when you make backwards-compatible bug fixes.
+-- Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.
+
+
+--
+-- Summary:      Auto Updater
+-- Last Updated: 31.1.2017
+-- 
+local ver = "1.0.0"
+function UpdCheck(data)
+    if tonumber(data) > tonumber(ver) then
+        DownloadFileAsync("https://raw.githubusercontent.com/Crapmo/GOS/master/AutoMuter.lua", SCRIPT_PATH .. "AutoMuter.lua", function() PrintChat("AutoMuter >> Updated! - Please F6 2x") return end)
+    else
+        PrintChat("AutoMuter >> Loaded Version "..ver..".")
+    end
+end
+GetWebResultAsync("https://raw.githubusercontent.com/Crapmo/GOS/master/AutoMuter.lua", UpdCheck)
+
+
+--
+-- Summary:      Auto Muter
+-- Last Updated: 31.1.2017
+--
+SendChat("/all Good luck, have fun!")
+SendChat("/mute all")
+-- Useful, right?
