@@ -1,0 +1,396 @@
+/* MIT License                                                                                                     
+/*                                                                                                 */
+/* Copyright (c) 2017 Art3mis                                                                      */
+/*                                                                                                 */
+/* Permission is hereby granted, free of charge, to any person obtaining a copy                    */
+/* of this software and associated documentation files (the "Software"), to deal                   */
+/* in the Software without restriction, including without limitation the rights                    */
+/* to use, copy, modify, merge, publish, distribute, sublicense, and/or sell                       */
+/* copies of the Software, and to permit persons to whom the Software is                           */
+/* furnished to do so, subject to the following conditions:                                        */
+/*                                                                                                 */
+/* The above copyright notice and this permission notice shall be included in all                  */
+/* copies or substantial portions of the Software.                                                 */
+/*                                                                                                 */
+/* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR                      */
+/* IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,                        */
+/* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE                     */
+/* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER                          */
+/* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,                   */
+/* OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE                   */
+/* SOFTWARE.                                                                                       */
+
+body#ipboard_body {
+    background: #1A1A1A url(https://i.art3m.is/u/1486123448.png) no-repeat top center !important;
+    background-color: #1A1A1A !important;
+}
+
+#logo{
+	display:none;   
+}
+
+#main-nav {
+    background: rgba(0, 0, 0, 0.45) none repeat scroll 0% 0%;
+}
+
+#mainContent {
+    background: #191B1F none repeat scroll 0% 0%;
+}
+
+.maintitle, .col_c_icon img[src*="f_"], .f_icon, .topic_buttons li a, .pagination .pages li.active, #primary_extra_menucontent, #more_apps_menucontent, .post_block h3, .mini_pagination a, .user_controls li a, #vnc_filter_popup_close, #search .submit_input, .col_f_icon img, .ipsBadge_green, body#logo, #themeToggle, #primary_extra_menucontent, #more_apps_menucontent, .submenu_container, #secondary_navigation, .bar, .ipsSideBlock h3, .general_box h3, .statistics_head {
+    background-color: #151619;
+}
+
+#adv_search {
+    background: #151619 url(http://gamingonsteroids.com/public/style_images/shelter2/advanced_search.png) no-repeat scroll 50% 50%;
+    border: 1px solid #000000;
+}
+
+#search .submit_input {
+    background: #151619 url(http://gamingonsteroids.com/public/style_images/shelter2/search_icon.png) no-repeat scroll 50% center;
+}
+
+#search_wrap {
+    background: #191B1F none repeat scroll 0% 0%;
+}
+
+#search_options {
+    background: #0f1013 none repeat scroll 0% 0%;
+}
+
+#user_bar {
+    background: rgb(21, 22, 25) none repeat scroll 0% 0%;
+}
+
+.ipsBox_container:not(.post_block) {
+    border: none;
+}
+
+.row2, .post_block.row2 {
+    background-color: #191b1f;
+}
+
+.message {
+    background: #191b1f none repeat scroll 0% 0%;
+    border: 1px solid #151619;
+}
+
+#shoutbox-shouts-table {
+    border: none;
+}
+
+.row1, .post_block.row1 {
+    background-color: #151619;
+}
+
+#shoutbox-shouts-table .row2 td {
+    border-bottom: 1px solid #151619;
+    vertical-align: middle;
+}
+
+#recentajaxcontent li, #idm_categories a, #idm_categories li.with_sub.open li, #index_stats .status_list li, #panel_files .file_listing li, #panel_screenshots #ss_linked li, .file_listing, #cart_totals td, div#member_filters li, #files li, .ipsType_sectiontitle, #order_review td, #package_details .package_info, .block_list li, .package_view_top, .member_entry, #help_topics li, .ipsBox_container .ipsType_pagetitle, .userpopup dl, #announcements td, .sideVerticalList li, fieldset.with_subhead ul, .ipsList_data li, .ipsList_withminiphoto li, .ipsList_withmediumphoto li, table.ipb_table td, .store_categories li, #mini_cart li, #index_stats div[id*="statusReply"], #ipg_category .ipg_category_row, .block_inner .ipb_table td, .gallery_pane h2, .status_feedback li[id*="statusReply"], .ipsSideMenu ul li, #usercp_content .ipsType_subtitle, .ipbfs_login_row, .articles .block-1, .articles .type-1x2x2 .article_row, #idm_category .idm_category_row, #category_list li a, .ipsComment, #forum_table.ipb_table tr:last-of-type td {
+    border-bottom: 1px solid #151619;
+}
+
+#shouts-global-resizer, #shouts-resizer {
+    background-color: #111113;
+}
+
+.input_text, .ipsTagBox_wrapper, textarea {
+    border: 1px solid #151619;
+    background: #191b1f;
+    color: #9f9f9f;
+}
+
+textarea:focus, .input_text:focus {
+    outline: none;
+    background-color: #191b1f;
+    color: #555;
+    border-color: #999;
+}
+
+textarea:focus, .input_text:focus {
+    outline: none;
+    background-color: #191b1f;
+    color: #555;
+    border-color: #010101;
+}
+
+.input_submit.alt {
+    background: #24262b;
+    color: #fff;
+}
+
+.border, .statistics, .post_block, .ipsComment, .popupInner, .no_messages, .general_box, .ipsSideBlock, .poll_question ol, .ipsBox_container, .ipsFloatingAction, .column_view .post_body {
+    background: #191b1f;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: background 0.25s ease 0s, border-color 0.25s ease 0s, color 0.25s ease 0s;
+}
+
+a:hover {
+    color: #e6e6e6;
+}
+
+.border {
+    border: 1px solid #111113;
+    background: #191b1f;
+}
+
+#board_stats .value {
+    color: #fff;
+}
+
+.bar, .ipsSideBlock h3, .general_box h3, .statistics_head {
+    border-top: 1px solid #111113;
+    border-bottom: 1px solid #111113;
+}
+
+.ipbfs_titlebox {
+    border-top: 6px solid #151619;
+}
+
+.ipbfs_titlebox {
+    background: #191b1f;
+    border: 1px solid #151619;
+}
+
+.ipsType_pagetitle, .ipsType_subtitle {
+    color: #ffffff;
+}
+
+.post_block {
+    border-bottom: 6px solid #151619;
+}
+
+.post_block h3 {
+    background-color: #191b1f !important;
+}
+
+ul.post_controls {
+    background: #191b1f;
+}
+
+.author_info {
+    background-color: #191b1f;
+}
+
+.post_body {
+    border: 1px solid #151619;
+}
+
+.post {
+    color: #A4A4A4;
+}
+
+.ipsButton_secondary, .bbc_spoiler_show, .user_controls li a {
+    border: 1px solid #151619;
+}
+
+.ipsButton_secondary, .bbc_spoiler_show, .user_controls li a {
+    background: #24262b;
+}
+
+ul.post_controls a, ul.post_controls a.ipsButton_secondary {
+    color: #A4A4A4;
+    background: #24262b none repeat scroll 0% 0%;
+    border: 1px solid #151619;
+}
+
+.post_date {
+    color: #A4A4A4;
+}
+
+.ipbmenu_content, .ipb_autocomplete {
+    background: #191b1f;
+    border: 1px solid #4a4a4a;
+}
+
+.ipbmenu_content li, .ipb_autocomplete li {
+    border-bottom: 1px solid #4a4a4a;
+}
+
+.popupInner h3 {
+    border-bottom: 1px solid #191b1f;
+    background: #151619;
+}
+
+.ipsVerticalTabbed_tabs li.active a {
+    background: #151619;
+    color: #f8f8f8;
+}
+
+.ipsVerticalTabbed_tabs li {
+    background: #191b1f;
+    color: #808080;
+    border-bottom: 1px solid #151619;
+}
+
+.ipsVerticalTabbed_tabs li a:hover {
+    background: #151619;
+    color: #808080;
+}
+
+.ipsVerticalTabbed_tabs>ul {
+    border-top: 1px solid #151619;
+    border-left: 1px solid #151619;
+}
+
+.edit {
+    border: 1px solid #1f2023;
+    color: #4a4a4a;
+    text-shadow: none;
+}
+
+.signature {
+    color: #a4a4a4;
+    border-top: 1px solid #151619;
+}
+
+div.bbc_spoiler_content {
+    background: #191b1f;
+    border: 1px dashed #151619;
+}
+
+blockquote.ipsBlockquote {
+    border: 1px solid #151619;
+    border-top: 1px solid #e8e8e8;
+    background: #191b1f;
+    color: #4a4a4a;
+}
+
+p.citation {
+    border: 1px solid #151619;
+    background: #191b1f;
+    color: #535353;
+    text-shadow: none;
+}
+
+.edit {
+    background: #191b1f url(http://gamingonsteroids.com/public/style_images/shelter2/comment_edit.png) no-repeat 6px 10px;
+    border: 1px solid #151619;
+}
+
+.content_border {
+    border: 1px solid #151619;
+    -webkit-box-shadow: rgba(0,0,0,0.06) 0px 1px 4px;
+    -moz-box-shadow: rgba(0,0,0,0.06) 0px 1px 4px;
+    box-shadow: rgba(0,0,0,0.06) 0px 1px 4px;
+}
+
+.pagination {
+    padding: 0;
+    line-height: 22px;
+    background: #191b1f;
+    margin: 10px;
+}
+
+.pagination li {
+    background: #191b1f none repeat scroll 0% 0%;
+    border-style: solid;
+    border-color: #151619;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    border-width: 1px 0px 1px 1px;
+    color: #4a4a4a;
+}
+
+.pagination .page a, .pagination .back a, .pagination .forward a {
+    background: #191b1f;
+    color: #414141;
+    display: inline-block;
+    padding: 3px 13px;
+    text-transform: lowercase;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+.pagination .page a:hover, .pagination .back a:hover, .pagination .forward a:hover {
+    color: #c7c7c7;
+    background-color: #151619;
+}
+
+.col_f_icon img {
+    display: none;
+}
+
+div#user_link_menucontent {
+    background: #191b1f;
+}
+
+#user_navigation a:hover {
+    color: #fff !important;
+    background: rgb(21, 22, 25) !important;
+}
+
+.ipsButton_secondary:hover, .bbc_spoiler_show:hover, .user_controls li a:hover {
+    background: #191b1f;
+    color: #fff;
+    border: 1px #151619 solid;
+}
+
+div#user_inbox_link_menucontent {
+    background-color: #191b1f;
+}
+
+div#user_notifications_link_menucontent {
+    background: #191b1f;
+}
+
+fieldset.submit {
+    background-color: #191b1f;
+}
+
+.ipsForm_submit {
+    background-color: #191b1f;
+}
+
+.topic_buttons li.important a, .topic_buttons li.important span, .ipsButton .important, .topic_buttons li a, .topic_buttons li span, .ipsButton {
+    background: #191b1f;
+    color: #fff;
+}
+
+#vnc_filter_popup_close, body#ipboard_body fieldset.submit, body#ipboard_body p.submit, .ipsForm_submit {
+    background: #191b1f;
+}
+
+pre.prettyprint, code.prettyprint {
+    background-color: #191b1f !important;
+    color: #fff;
+    border: 1px solid #151619;
+}
+
+pre.span {
+    color: #fff;
+}
+
+.header {
+    color: #727272;
+    background: #151619;
+}
+
+.header th {
+    border-bottom: none;
+}
+
+.topic_buttons li a:hover {
+    color: #ffffff !important;
+    background: #151619;
+}
+
+.row2.ipsPad {
+    color: #a4a4a4;
+}
+
+p.message.unspecific {
+    background-color: #191b1f;
+    border: 1px solid #151619;
+    color: gray;
+}
+
