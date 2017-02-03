@@ -394,3 +394,13 @@ p.message.unspecific {
     color: gray;
 }
 
+ol {
+    color: #A4A4A4;
+}
+
+.post_body div p {
+    color: #a4a4a4 !important;
+}
+.post_body div {
+    color: #a4a4a4;
+}
