@@ -401,6 +401,22 @@ ol {
 .post_body div p {
     color: #a4a4a4 !important;
 }
+
 .post_body div {
     color: #a4a4a4;
 }
+
+.guestMessage {
+    background-color: #191b1f;
+    text-shadow: none;
+    color: white;
+}
+
+.guestHeader {
+    background: #151619 !important;
+}
+
+a.guestButton {
+    background: #151619 !important;
+    border: 1px solid black !important;
+}	
