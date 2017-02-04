@@ -420,3 +420,7 @@ a.guestButton {
     background: #151619 !important;
     border: 1px solid black !important;
 }	
+
+h3.row2 a {
+    color: white;
+}
