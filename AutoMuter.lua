@@ -49,6 +49,6 @@ GetWebResultAsync("https://raw.githubusercontent.com/Crapmo/GOS/master/AutoMuter
 -- Summary:      Auto Muter
 -- Last Updated: 31.1.2017
 --
-SendChat("/all Good luck, have fun!")
-SendChat("/mute all")
+SendChat("/all Good luck, have fun!") -- WAITING FOR FERE TO IMPLEMENT THIS
+SendChat("/mute all") -- WAITING FOR FERE TO IMPLEMENT THIS
 -- Useful, right?
